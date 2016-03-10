@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{A3DD48C3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dry.Caching.Memcached", "..\Dry.Caching.Memcached\Dry.Caching.Memcached.csproj", "{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dry.Caching.Web", "..\Dry.Caching.Web\Dry.Caching.Web.csproj", "{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		.NET Fx 2.0|Any CPU = .NET Fx 2.0|Any CPU
@@ -46,6 +48,18 @@ Global
 		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}.Debug|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
 		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}.Release|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
 		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}.Release|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 2.0|Any CPU.ActiveCfg = .NET Fx 2.0|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 2.0|Any CPU.Build.0 = .NET Fx 2.0|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 3.5|Any CPU.ActiveCfg = .NET Fx 3.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 3.5|Any CPU.Build.0 = .NET Fx 3.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 4.0|Any CPU.ActiveCfg = .NET Fx 4.0|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 4.0|Any CPU.Build.0 = .NET Fx 4.0|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 4.5|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}..NET Fx 4.5|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}.Debug|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}.Debug|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}.Release|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{BB5E5AA7-C01F-4749-8600-DE7F77CE9568}.Release|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
