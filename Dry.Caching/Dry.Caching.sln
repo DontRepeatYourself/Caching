@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dry.Caching", "Dry.Caching.csproj", "{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{A3DD48C3-FD02-4C0B-ACE2-7DA5E41755F5}"
+	ProjectSection(SolutionItems) = preProject
+		Dry.Caching.nuspec = Dry.Caching.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dry.Caching.Memcached", "..\Dry.Caching.Memcached\Dry.Caching.Memcached.csproj", "{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		.NET Fx 2.0|Any CPU = .NET Fx 2.0|Any CPU
+		.NET Fx 3.5|Any CPU = .NET Fx 3.5|Any CPU
+		.NET Fx 4.0|Any CPU = .NET Fx 4.0|Any CPU
+		.NET Fx 4.5|Any CPU = .NET Fx 4.5|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 2.0|Any CPU.ActiveCfg = .NET Fx 2.0|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 2.0|Any CPU.Build.0 = .NET Fx 2.0|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 3.5|Any CPU.ActiveCfg = .NET Fx 3.5|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 3.5|Any CPU.Build.0 = .NET Fx 3.5|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 4.0|Any CPU.ActiveCfg = .NET Fx 4.0|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 4.0|Any CPU.Build.0 = .NET Fx 4.0|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 4.5|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}..NET Fx 4.5|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}.Debug|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}.Debug|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}.Release|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{69DF8315-6D71-4CA6-A0A9-E5B996E99A6C}.Release|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 2.0|Any CPU.ActiveCfg = .NET Fx 2.0|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 2.0|Any CPU.Build.0 = .NET Fx 2.0|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 3.5|Any CPU.ActiveCfg = .NET Fx 3.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 3.5|Any CPU.Build.0 = .NET Fx 3.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 4.0|Any CPU.ActiveCfg = .NET Fx 4.0|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 4.0|Any CPU.Build.0 = .NET Fx 4.0|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 4.5|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}..NET Fx 4.5|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}.Debug|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}.Debug|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}.Release|Any CPU.ActiveCfg = .NET Fx 4.5|Any CPU
+		{256BBFE6-BA22-439F-9AD8-E16EAFEB2DA7}.Release|Any CPU.Build.0 = .NET Fx 4.5|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

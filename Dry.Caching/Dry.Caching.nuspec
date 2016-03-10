@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Dry.Caching</id>
+        <version>1.0.0.0</version>
+        <title>Don't Repeat Yourself: Caching</title>
+        <authors>Gary McLean Hall</authors>
+        <owners>Gary McLean Hall</owners>
+        <licenseUrl>http://choosealicense.com/licenses/mit/</licenseUrl>
+        <projectUrl>http://github.org/dontrepeatyourself/caching</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Generalist caching interfaces for use throughout your solution.</description>
+        <releaseNotes>Initial release</releaseNotes>
+        <copyright>Copyright 2016</copyright>
+        <tags>dry caching dry.caching reuse abstraction</tags>
+    </metadata>
+    <files>
+        <file src="bin\.NET Fx 2.0\Dry.Caching.dll" target="lib\net20\Dry.Caching.dll" />
+        <file src="bin\.NET Fx 3.5\Dry.Caching.dll" target="lib\net35\Dry.Caching.dll" />
+        <file src="bin\.NET Fx 4.0\Dry.Caching.dll" target="lib\net40\Dry.Caching.dll" />
+        <file src="bin\.NET Fx 4.5\Dry.Caching.dll" target="lib\net45\Dry.Caching.dll" />
+    </files>
+</package>
